@@ -1,0 +1,11 @@
+openapi: 3.0.3
+info:
+  title: developers.cn.project44.com – Subdomain Takeover Demo
+  version: 1.0.0
+paths:
+  /:
+    get:
+      summary: Hello from the hijacked subdomain
+      responses:
+        '200':
+          description: This confirms a successful subdomain takeover

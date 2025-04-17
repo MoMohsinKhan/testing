@@ -1,0 +1,13 @@
+site:
+  title: developers.cn.project44.com Takeover
+  layout: redoc
+  theme:
+    openapi:
+      theme:
+        colors:
+          primary:
+            main: '#3b82f6'
+
+apis:
+  main:
+    root: ./openapi.yaml
